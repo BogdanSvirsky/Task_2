@@ -6,7 +6,7 @@ enum class AccountType {
     CREDIT
 };
 
-enum class AccountCurrency {
+enum class Currency {
     RUB,
     YUAN,
     USD,
@@ -26,7 +26,7 @@ enum class DepositType {
     COMPOUNDED_ANNUALLY_MIN
 };
 
-enum class LoanType {
+enum class CreditType {
     CHARGED_DAILY,
     CHARGED_MONTHLY,
     CHARGED_QUARTERLY,

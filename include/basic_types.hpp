@@ -3,7 +3,7 @@ using Number = unsigned long long;
 using Float = double;
 
 typedef struct {
-  Number hours, minutes;
+    Number hours, minutes;
 } Time;
 
 using Date = Number;
