@@ -2,4 +2,14 @@ using Number = unsigned long long;
 
 using Float = double;
 
-using struct 
+typedef struct {
+  Number hours, minutes;
+} Time;
+
+using Date = Number;
+
+using MonetaryUnit = double;
+
+MonetaryUnit round(MonetaryUnit value);
+
+using String = char[100];
